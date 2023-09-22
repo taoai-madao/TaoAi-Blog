@@ -1,0 +1,70 @@
+- loading_img = theme.preloader.avatar
+
+#loading-box(onclick='document.getElementById("loading-box").classList.add("loaded")')
+  .loading-bg
+    img.loading-img(class='nolazyload' src=loading_img ? url_for(loading_img) : "https://img1.imgtp.com/2023/08/25/NYte2O58.png")
+    .loading-image-dot
+    #loading-percentage
+      | 0%
+  .loading-left-bg
+  .loading-right-bg
+  .spinner-box
+    .configure-border-1
+      .configure-core
+    .configure-border-2
+      .configure-core
+    .loading-word= _p('loading')
+script.
+  const loadingPercentage = document.getElementById("loading-percentage");
+  loadingPercentage.style.color = "black";
+  let loadingPercentageTimer = setInterval(function() {
+    var progressBar = document.querySelector(".pace-progress");
+    if (!progressBar) return
+    var currentValue = progressBar.getAttribute("data-progress-text");
+    if (currentValue !== loadingPercentage.textContent) {
+      loadingPercentage.textContent = currentValue;
+      if (currentValue === "100%") {
+        clearInterval(loadingPercentageTimer);
+      }
+    }
+  }, 100);
+  const preloader = {
+    endLoading: () => {
+      document.body.style.overflow = 'auto';
+      document.getElementById('loading-box').classList.add("loaded")
+    },
+    initLoading: () => {
+      document.body.style.overflow = '';
+      document.getElementById('loading-box').classList.remove("loaded")
+    }
+  }
+  window.addEventListener('load',()=> { preloader.endLoading() })
+
+  if (!{theme.pjax && theme.pjax.enable}) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+
+script.
+  (()=>{
+    const $loadingBox = document.getElementById('loading-box')
+    const $body = document.body
+    const preloader = {
+      endLoading: () => {
+        $body.style.overflow = 'auto'
+        $loadingBox.classList.add('loaded')
+      },
+      initLoading: () => {
+        $body.style.overflow = ''
+        $loadingBox.classList.remove('loaded')
+      }
+    }
+
+    preloader.initLoading()
+    window.addEventListener('load',() => { preloader.endLoading() })
+
+    if (!{theme.pjax && theme.pjax.enable}) {
+      document.addEventListener('pjax:send', () => { preloader.initLoading() })
+      document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+    }
+  })()
