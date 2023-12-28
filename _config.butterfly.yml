@@ -3,7 +3,7 @@
 # --------------------------------------
 
 nav:
-  logo: https://img1.imgtp.com/2023/08/25/BVZETW53.png  # 	网站的 logo，支持图片，直接填入图片链接image
+  logo: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251306787.png  # 	网站的 logo，支持图片，直接填入图片链接image
   display_title:  true #	是否显示网站标题，填写 true 或者 false
   fixed: false # 是否固定状态栏，填写 true 或者 false
 
@@ -20,10 +20,10 @@ menu:
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
-# Code Blocks (代码相关)
+# Code Blocks (代码/代码块相关)
 # --------------------------------------
 
-highlight_theme: mac # 设置代码高亮主题，可选值：darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light  # 设置代码高亮主题，可选值：darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # 是否在代码块中显示复制按钮，可选值：true / false
 highlight_lang: true # 是否在代码块中显示代码语言类型，可选值：true / false
 highlight_shrink: false # 是否将代码块默认收缩，可选值：true / false / none（表示默认不收缩且不显示收缩按钮）
@@ -41,21 +41,22 @@ social:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://img1.imgtp.com/2023/08/25/NYte2O58.png
+favicon: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251306787.png
 
 # Avatar (头像)
 avatar:
-  img: https://img1.imgtp.com/2023/08/25/NYte2O58.png
+  img: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251310857.png
   effect: false # 头像会不会一直转圈
 
 # Disable all banner image（禁用所有横幅图片）
 disable_top_img: false #（是否禁用顶部横幅图片）
 
 # The banner image of home page（首页横幅图片）
-index_img: https://img1.imgtp.com/2023/09/22/wbAPnKGk.jpg #（设置首页的横幅图片）
+#index_img: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061914077.png #（设置首页的横幅图片）
+index_img: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613840.jpg #（设置首页的横幅图片）
 
 # If the banner of page not setting, it will show the top_img（如果页面没有设置横幅图片，则显示顶部横幅图片）
-default_top_img: https://img1.imgtp.com/2023/09/18/XQTTMKUx.png #（设置默认的顶部横幅图片）
+default_top_img: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061911864.jpg #（设置默认的顶部横幅图片）
 
 # The banner image of archive page（归档页面横幅图片）
 archive_img: #（设置归档页面的横幅图片）
@@ -88,22 +89,19 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover时，默認的封面显示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.
-    - https://img1.imgtp.com/2023/09/22/mSP9aHOr.jpg
-    - https://img1.imgtp.com/2023/09/22/jU1hkUna.jpg
-    - https://img1.imgtp.com/2023/09/18/f9JPzWQV.jpg
-    - https://img1.imgtp.com/2023/09/18/yG9BamkF.jpg
-    - https://img1.imgtp.com/2023/09/18/5EfgwQCp.jpg
-    - https://img1.imgtp.com/2023/09/18/15vAJUPW.jpg
-    - https://img1.imgtp.com/2023/09/18/XQTTMKUx.png
-    - https://img1.imgtp.com/2023/09/22/fYEIZilL.jpg
-    - https://img1.imgtp.com/2023/09/22/QwlItPLm.jpg
-    - https://img1.imgtp.com/2023/09/22/wS4lmnvr.jpg
-    - https://img1.imgtp.com/2023/09/22/HPISeNwb.jpg
-    - https://img1.imgtp.com/2023/09/22/HPSnnyZZ.jpg
-    - https://img1.imgtp.com/2023/09/22/stffE7EF.jpg
-    - https://img1.imgtp.com/2023/09/22/8nHDHQqp.jpg
-    - https://img1.imgtp.com/2023/09/22/GnpWmisl.png
+  # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613839.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613842.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613702.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613738.jpeg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251452356.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251443415.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251443637.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061911862.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061911858.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061908784.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061853361.jpg
+    - https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251613701.jpg
 
 # Replace Broken Images (替換無法显示的图片)
 error_img:
@@ -114,7 +112,7 @@ error_img:
 error_404:
   enable: true
   subtitle: "页面没有扎到"
-  background: https://img1.imgtp.com/2023/09/18/yG9BamkF.jpg
+  background: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061914064.jpg
 
 # 页面 meta 显示
 post_meta:
@@ -226,7 +224,7 @@ footer:
   owner:
     enable: true
     since: 2023
-  custom_text: Hi，欢迎访问我的Blog
+  custom_text:  Hi，欢迎访问我的Blog |  <a href="https://beian.miit.gov.cn/" target="_blank">鲁ICP备2023030767号-1</a>
   copyright: true # Copyright of theme and framework
 
 # aside (侧边栏)
@@ -248,15 +246,15 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 前往站长GitHub小窝
+      text: 前往GitHub小窝
       link: https://github.com/taoai-madao
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: <center><b>--- 主域名 ---<br><a href="http://www.taoaimadao.top/" class="anno_content"><font color="#5ea6e5">taoaimdao.top</font></a>
   card_recent_post:
     enable: true
-    limit: 5 # if set 0 will show all
-    sort: date # date or updated
+    limit: 2 # if set 0 will show all 最新文章显示数量
+    sort: date # date or updated 根据日期进行排序
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
     enable: true
@@ -656,7 +654,8 @@ tag_ui: # 留空或 index
 # Website Background (设置网站背景)
 # can set it to color or image (可設置图片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://img1.imgtp.com/2023/09/18/yG9BamkF.jpg)
+background: url(https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310061918082.png)
+#background: url(https://img1.imgtp.com/2023/02/01/szJGZgtF.jpg)
 
 # footer是否显示图片背景(与top_img一致)
 footer_bg:
@@ -717,8 +716,8 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
-  mobile: false
+  enable: true
+  mobile: true
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
 ClickShowText:
@@ -793,7 +792,7 @@ preloader:
   source: 1
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url: /css/progress_bar.css
-  avatar: https://img1.imgtp.com/2023/08/25/NYte2O58.png #自定义头像
+  avatar: https://taoai-store.oss-cn-hangzhou.aliyuncs.com/img/202310251310857.png #自定义头像
 
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
@@ -861,14 +860,15 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
+#  开启主题的 aplayerInject
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -947,8 +947,9 @@ inject:
     - <script defer src="/js/day.js"></script> # 节日弹窗
     - <script src="/js/sun_moon.js" async></script> # 日夜切换
     - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
-    - <script type="text/javascript" src="/js/rightmenu.js"></script> # Jquery 库
+    - <script type="text/javascript" src="/js/rightmenu.js"></script> # 鼠标右键
 #    - <script async data-pjax src="/js/anzhiyu.js"></script>
+    - <div class="aplayer no-destroy" data-id="8181447068" data-server="netease" data-type="playlist" data-volume="0.3" data-fixed="true" data-autoplay="true" data-lrctype="0"> </div>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -962,7 +963,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: local
 
   # Add version number to url, true or false
   version: false
